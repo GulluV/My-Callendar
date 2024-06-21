@@ -35,9 +35,18 @@ h1{
 	text-align: center;
 	font-size: 400px;
 }
+@keyframes show{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
 .blackX{
 	color: black;
 	opacity: 1;
+	transition: 2s;
 }
 img{
 	width: 50%;
